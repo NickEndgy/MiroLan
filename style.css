@@ -717,7 +717,7 @@ body{
 
 
 .footer {
-   height: 1000px;
+   height: 700px;
    width: 100%;
 
    background-color: #050038;
@@ -725,10 +725,77 @@ body{
 
 
 .container-grid3 {
+   margin-left: 20px;
+   width: 1800px;
+   height: 407px;
    display: grid;
    grid-template-columns: auto auto auto auto auto;
 }
 
 .grid3-item {
+   margin-top: 40px;
+}
+
+.grid3-item h4 {
+   margin-bottom: 24px;
+}
+
+.grid3-item, a, h4 {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+
    color: #fff;
 }
+
+.grid3-item li {
+   margin-bottom: 7px;
+}
+
+.polosa {
+   margin-top: 100px;
+   margin-bottom: 70px;
+   width: 1876px;
+   color: #9B99AF;
+}
+
+.other1 {
+   margin-left: 20px;
+   display: flex;
+   color: #fff;
+}
+
+.other1 a {
+   padding-right: 20px;
+}
+
+.ru {
+   margin-right: 20px;
+   margin-top: 3px;
+}
+
+.global-footer {
+   margin-top: -5px;
+   margin-right: 5px;
+}
+
+.sec a {
+   margin-left: 60px;
+   margin-right: 60px;
+}
+
+.other2 {
+   margin-top: 28px;
+   margin-left: 20px;
+   display: flex;
+}
+
+.other2 p {
+   margin-right: 22px;
+}
+
+.miro-img {
+   margin-top: -6px;
+}
+
+
