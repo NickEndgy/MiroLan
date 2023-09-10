@@ -499,7 +499,7 @@ body{
    padding-top: 118px;
 
    width: 100%;
-   height: 1000px;
+   height: 1027px;
 
    background-color: #FFD02F;
 }
@@ -526,13 +526,7 @@ body{
    color: #050038;
 }
 
-/* .contact::after {
-   content: "";
-   width: 264px;
-   margin-left: 830px;
-   display: block;
-   border: 1px solid #050038;
-} */
+
 
 .line {
    margin-bottom: 60px;
@@ -560,7 +554,92 @@ body{
 }
 
 .grid-item p {
+   margin-top: 37px;
+
    font-size: 18px;
    font-weight: 400;
    line-height: 24px;
+}
+
+
+
+/* Container 7 */
+
+.container_7 {
+   height: 650px;
+}
+
+
+.cont7-main_title {
+   margin-top: 118px;
+   text-align: center;
+}
+
+.cont7-main_title h3 {
+   margin-bottom: 27px;
+
+   font-size: 48px;
+   font-weight: 400;
+   line-height: 56px;
+
+   color: #050038;
+}
+
+.cont7-btn {
+   width: 264px;
+   height: 46px;
+
+   border-radius: 24px;
+   border: 1px solid #4262FF;
+   background-color: #fff;
+}
+
+.cont7-btn a {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24px;
+   color: #4262FF;
+}
+
+.container-grid2 {
+   margin-top: 90px;
+   margin-left: 220px;
+   margin-right: 130px;
+   justify-content: space-around;
+
+   display: grid;
+   grid-gap: 120px;
+   grid-template-columns: 400px 400px 400px;
+
+}
+
+/* .grid2-item {
+   background-color: #FFD02F;
+} */
+
+
+.grid2-item p {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24px;
+
+   color: rgba(5, 0, 56, 0.60);
+}
+
+.pers {
+   display: flex;
+   margin-top: 62px;
+}
+
+.pers img {
+   position: absolute;
+}
+
+.pers p {
+   padding-left: 60px;
+
+   color: rgba(5, 0, 56, 0.60); 
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
 }
