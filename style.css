@@ -1,0 +1,74 @@
+html{
+   box-sizing: border-box;
+   font-size: 16px;
+}
+
+*, *::before, *::after{
+   box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul{
+   margin: 0;
+   padding: 0;
+   font-weight: normal;
+}
+
+ol, ul{
+   list-style: none;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+.header {
+   margin-top: 24px;
+}
+
+.logo {
+   position: absolute;
+}
+
+.nav {
+   display: flex;
+
+   margin-left: 20px;
+   margin-bottom: 35px;
+
+   position: fixed;   
+}
+
+.navigation {
+   display: flex;
+   margin-left: 240px;
+   margin-top: 11px;
+}
+
+.navigation li {
+   padding-right: 34px;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.navigation li:last-child {
+   padding-right: 0px
+}
+
+.icon-global {
+   padding-left: 881px;
+}
+
+.btn-regist {
+   margin-left: 88px;
+   width: 157px;
+   height: 50px;
+   border-radius: 24px;
+
+   border: 1px solid #4262FF;
+   background-color: #4262FF;
+
+   font-size: 16px;
+   font-weight: 400;
+   color: #fff
+
+}
